@@ -1,22 +1,25 @@
 #header img {
-    margin-top: 30px;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    transform: scale(0.9);
-    transition: .59s;
-}
+     margin-top: 30px;
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     transform: scale(0.9);
+     transition: .59s;
+ }
 #header img:hover {
     transform: scale(1);
     transition: .59s;
 }
 #header h1{
-margin: 0;
-padding: 60px 0 0 0;
-letter-spacing: -2px;
-font-family: 华文琥珀;
-font-size: 40px;
-text-align: center;
+    margin: 0;
+    padding: 60px 0 0 0;
+    letter-spacing: -2px;
+    font-family: 华文琥珀;
+    font-size: 40px;
+    text-align: center;
+}
+#header h2{
+    text-align: center;
 }
 #dhl{
     height: 20px;
@@ -31,6 +34,7 @@ text-align: center;
 }
 #dhl li{
     float: left;
+    margin-top: 20px;
 }
 #dhl li a{
     color: #ffffff;
@@ -47,4 +51,38 @@ text-align: center;
 #dhl li a:hover{
     background-color: #56c1ff;
     color: #ffffff;
+}
+#page{
+    height: 750px;
+    width: 80%;
+    margin: 40px auto 30px auto;
+}
+.left {
+    width: 60%;
+    height: 700px;
+    background-color: rgba(255,255,255,.80);
+    border-radius: 8px;
+    float: left;
+}
+#left h2{
+    text-align: center;
+}
+#right{
+    width: 35%;
+    height: 400px;
+    background-color: rgba(255,255,255,.80);
+    border-radius: 8px;
+    margin-left: 30px;
+    float: left;
+}
+#footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 40px;
+    margin-bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+#footer h2{
+    color: #ffffff;
+    text-align: center;
 }
