@@ -1,0 +1,50 @@
+#header img {
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transform: scale(0.9);
+    transition: .59s;
+}
+#header img:hover {
+    transform: scale(1);
+    transition: .59s;
+}
+#header h1{
+margin: 0;
+padding: 60px 0 0 0;
+letter-spacing: -2px;
+font-family: 华文琥珀;
+font-size: 40px;
+text-align: center;
+}
+#dhl{
+    height: 20px;
+    background-color: rgba(0,0,0,0);
+    border-radius: 3px;
+    margin: 0 auto;
+    text-align: center;
+    width: 700px;
+}
+#dhl ul{
+    list-style: none;
+}
+#dhl li{
+    float: left;
+}
+#dhl li a{
+    color: #ffffff;
+    text-decoration: none;
+    scroll-padding-top: 4px;
+    display: block;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    background-color: #1f52cc;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+#dhl li a:hover{
+    background-color: #56c1ff;
+    color: #ffffff;
+}
